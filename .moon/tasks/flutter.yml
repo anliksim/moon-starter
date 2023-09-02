@@ -1,0 +1,7 @@
+tasks:
+  devs:
+    command: 'fvm flutter run -d web-server --web-hostname 0.0.0.0'
+    local: true
+  dev:
+    command: 'fvm flutter run -d chrome --web-hostname 0.0.0.0'
+    local: true
